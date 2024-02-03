@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intern's Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #888585;
+  color: #171010;
+  padding: 10px;
+  text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #181616;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #888585;
+            color: #1c1a1a;;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Intern's Web Page</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h3> Welcome to  my web page! </h3>
+        <p><h3>{{ time_of_day }}</h3>The current Date and Time is :{{current_time}} </p>
+        <p>Quote of the Day: " {{random_quote}} "  </p>
+        <p><a href="/details">Click Here to fill the user Details</a></p>
+        <p><a href="/dashboard">Click Here to view the dashboard</a></p>
+    </main>
+
+    <footer>
+        <p>Contact Information:</p>
+        <p>Email: <a href="mailto:kuruvabhanu28prakash@gmail.com">kuruvabhanu28prakash@gmail.com</a></p>
+        <p>Phone: 9014663588</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/kuruva-bhanu-prakash-b681a6204/" target="_blank">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/bhanu9850/pdf_processor.git" target="_blank">GitHub Profile</a></p>
+    </footer>
+
+</body>
+</html>
