@@ -2,13 +2,16 @@
 Python Development Internship Assignment
 
 Clone this repository to your local machine.
-git clone https://github.com/your_username/your_project.git
-cd your_project
+git clone:https://github.com/bhanu9850/chain_tech.git
+
+cd chain_tech
+
 Install the required dependencies.
-bash
-Copy code
-pip install -r requirements.txt
+pip install python
+pip install django
+
 Run the Python web server.
-bash
-Copy code
-python app.py
+python manage.py runserver
+Django version 3.0.5,
+
+Starting development server at http://127.0.0.1:8000/
