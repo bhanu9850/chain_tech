@@ -59,7 +59,7 @@ def details(request):
         )    
         user_instance.save()
         print(name,email,phone_number,address,dob,country,gender,intern_status)
-        return HttpResponse("Thankyou for submitting the form!")
+        return redirect('dashboard')
     return render(request,'details.html')
     
 def dashboard(request):
